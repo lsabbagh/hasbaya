@@ -34,6 +34,10 @@
   }
 }
 .hello-sayd {
-  background-color: skyblue;
+  background-color: white;
   width: 140px;
+  border-color: black;
+  padding: 5px;
+  
+  
 }

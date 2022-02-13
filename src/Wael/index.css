@@ -1,3 +1,46 @@
-.main-title {
-  background-color: green;
+.sayd-title {
+  background-color: skyblue;
+  width: 200px;
+  padding: 10px;;
+  font-size: 22px;
+}
+.hunt-container{
+  padding:1px;
+  background-color: lightgray;
+  height :200px;
+  display: flex;
+  flex-direction: column;
+
+}
+.sayd-container {
+  width: min-content;
+  padding: 5px;
+  border: 2Fpx solid red;
+  background-color: black;
+}
+.sayd-item {
+  background-color: #aaa;
+  margin: 1px;
+  width: 100px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  
+
+}
+
+.sayd-item:hover {
+  transform: scale(1.2);
+  background-color: black;
+  color: white;
+  transition-delay: 0.1s;
+}
+
+.sayd-content {
+  background-color: darkgray;
+}
+
+.sayd-image {
+  width: 100px;
+  height: 100px;
 }

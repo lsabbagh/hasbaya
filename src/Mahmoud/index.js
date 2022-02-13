@@ -1,11 +1,14 @@
 import React from "react";
 import "./index.css";
 export default () => {
-  return (
-    <div>
+  return ( 
+    <div className="tourism-container">  
       {/* @TODO: mahmoud: Fix titles */}
-      here is mahmoud code
-      <span className="main-title">Hasbaya Origin</span>
+      <span className="tourism-item"> 
+      
+       tourist places
+      </span>
+      hi
     </div>
   );
 };

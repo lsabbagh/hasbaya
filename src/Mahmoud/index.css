@@ -2,6 +2,7 @@
   background-color: red;
   height: 90px ;
   width: 400px;
+  font-size:medium;
 
   
 }
@@ -11,4 +12,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: xx-small;
 }

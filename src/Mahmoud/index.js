@@ -5,8 +5,8 @@ export default () => {
     <div className="tourism-container">  
       {/* @TODO: mahmoud: Fix titles */}
       <span className="tourism-item"> 
-      
-       tourist places
+      <h1>tourist places</h1>
+       
       </span>
       hi
     </div>

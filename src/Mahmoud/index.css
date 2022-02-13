@@ -1,3 +1,14 @@
-.main-title {
-  background-color: green;
+.tourism-item {
+  background-color: red;
+  height: 90px ;
+  width: 400px;
+
+  
+}
+.tourism-container{
+  background-color: grey;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

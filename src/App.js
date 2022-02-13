@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
 
         <a
           className="App-link"
@@ -13,8 +12,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* @TODO: wael: add styles fo this button */}
-          <button> hello Sayd!</button>
+          {/* @TODO: wael: fix styles for this button */}
+          <button
+            className="hello-sayd"
+            style={{ border: '1px solid black' }}
+          >
+            {" "}
+            hello Sayd!
+          </button>
         </a>
       </header>
     </div>
